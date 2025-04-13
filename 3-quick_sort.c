@@ -68,7 +68,7 @@ void quick_sort_recursive(int *array, int low, int high, size_t size)
 
 /**
  * quick_sort - Sorts an array of integers in ascending order
- * 
+ *
  * Description: Uses the Quick sort algorithm with Lomuto partition scheme.
  * The pivot is always the last element of the partition being sorted.
  * Prints the array after each swap of two elements.
