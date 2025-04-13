@@ -11,7 +11,7 @@ void swap_elements(int *array, int i, int j, size_t size)
 {
 	int tmp;
 
-	if (i != j)
+	if (i != j && array[i] != array[j])
 	{
 		tmp = array[i];
 		array[i] = array[j];
@@ -67,7 +67,7 @@ void quick_sort_recursive(int *array, int low, int high, size_t size)
 }
 
 /**
- * quick_sort - Sorts an array of integers in ascending order using Quick sort
+ * quck_sort - Sorts an array of integers in ascending order using Quick sort
  * @array: The array to be sorted
  * @size: The size of the array
  */
